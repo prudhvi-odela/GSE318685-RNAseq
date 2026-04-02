@@ -23,3 +23,12 @@ Mus musculus RNA-seq analysis comparing Control vs Mutant samples.
 - results/MA_plot.pdf
 - results/PCA_plot.pdf
 - results/heatmap_top50.pdf
+
+## Volcano Plot
+![Volcano Plot](results/volcano_plot-1.png)
+
+## PCA Plot
+![PCA Plot](results/PCA_plot-1.png)
+
+## Heatmap
+![Heatmap](results/heatmap_top50-1.png)
