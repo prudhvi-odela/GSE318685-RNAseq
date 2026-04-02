@@ -1,0 +1,175 @@
+STAR version=2.7.11b
+STAR compilation time,server,dir=2025-07-24T03:06:21+0000 :/opt/conda/conda-bld/star_1753326220084/work/source
+##### Command Line:
+/home/prudhvi_pandu/miniconda3/envs/rnaseq/bin/STAR-avx2 --runThreadN 2 --runMode genomeGenerate --genomeDir star_index --genomeFastaFiles reference/GRCm39.primary_assembly.genome.fa --sjdbGTFfile reference/gencode.vM38.primary_assembly.annotation.gtf --sjdbOverhang 149 --genomeSAsparseD 2 --limitGenomeGenerateRAM 12000000000
+##### Initial USER parameters from Command Line:
+###### All USER parameters from Command Line:
+runThreadN                    2     ~RE-DEFINED
+runMode                       genomeGenerate        ~RE-DEFINED
+genomeDir                     star_index     ~RE-DEFINED
+genomeFastaFiles              reference/GRCm39.primary_assembly.genome.fa        ~RE-DEFINED
+sjdbGTFfile                   reference/gencode.vM38.primary_assembly.annotation.gtf     ~RE-DEFINED
+sjdbOverhang                  149     ~RE-DEFINED
+genomeSAsparseD               2     ~RE-DEFINED
+limitGenomeGenerateRAM        12000000000     ~RE-DEFINED
+##### Finished reading parameters from all sources
+
+##### Final user re-defined parameters-----------------:
+runMode                           genomeGenerate   
+runThreadN                        2
+genomeDir                         star_index
+genomeFastaFiles                  reference/GRCm39.primary_assembly.genome.fa   
+genomeSAsparseD                   2
+limitGenomeGenerateRAM            12000000000
+sjdbGTFfile                       reference/gencode.vM38.primary_assembly.annotation.gtf
+sjdbOverhang                      149
+
+-------------------------------
+##### Final effective command line:
+/home/prudhvi_pandu/miniconda3/envs/rnaseq/bin/STAR-avx2   --runMode genomeGenerate      --runThreadN 2   --genomeDir star_index   --genomeFastaFiles reference/GRCm39.primary_assembly.genome.fa      --genomeSAsparseD 2   --limitGenomeGenerateRAM 12000000000   --sjdbGTFfile reference/gencode.vM38.primary_assembly.annotation.gtf   --sjdbOverhang 149
+----------------------------------------
+
+Number of fastq files for each mate = 1
+ParametersSolo: --soloCellFilterType CellRanger2.2 filtering parameters:  3000 0.99 10
+Finished loading and checking parameters
+--genomeDir directory exists and will be overwritten: star_index/
+Apr 02 18:00:58 ... starting to generate Genome files
+reference/GRCm39.primary_assembly.genome.fa : chr # 0  "chr1" chrStart: 0
+reference/GRCm39.primary_assembly.genome.fa : chr # 1  "chr2" chrStart: 195297280
+reference/GRCm39.primary_assembly.genome.fa : chr # 2  "chr3" chrStart: 377225216
+reference/GRCm39.primary_assembly.genome.fa : chr # 3  "chr4" chrStart: 537133056
+reference/GRCm39.primary_assembly.genome.fa : chr # 4  "chr5" chrStart: 694157312
+reference/GRCm39.primary_assembly.genome.fa : chr # 5  "chr6" chrStart: 845938688
+reference/GRCm39.primary_assembly.genome.fa : chr # 6  "chr7" chrStart: 995622912
+reference/GRCm39.primary_assembly.genome.fa : chr # 7  "chr8" chrStart: 1140850688
+reference/GRCm39.primary_assembly.genome.fa : chr # 8  "chr9" chrStart: 1271136256
+reference/GRCm39.primary_assembly.genome.fa : chr # 9  "chr10" chrStart: 1395654656
+reference/GRCm39.primary_assembly.genome.fa : chr # 10  "chr11" chrStart: 1526202368
+reference/GRCm39.primary_assembly.genome.fa : chr # 11  "chr12" chrStart: 1648361472
+reference/GRCm39.primary_assembly.genome.fa : chr # 12  "chr13" chrStart: 1768685568
+reference/GRCm39.primary_assembly.genome.fa : chr # 13  "chr14" chrStart: 1889796096
+reference/GRCm39.primary_assembly.genome.fa : chr # 14  "chr15" chrStart: 2015100928
+reference/GRCm39.primary_assembly.genome.fa : chr # 15  "chr16" chrStart: 2119434240
+reference/GRCm39.primary_assembly.genome.fa : chr # 16  "chr17" chrStart: 2217476096
+reference/GRCm39.primary_assembly.genome.fa : chr # 17  "chr18" chrStart: 2312896512
+reference/GRCm39.primary_assembly.genome.fa : chr # 18  "chr19" chrStart: 2403860480
+reference/GRCm39.primary_assembly.genome.fa : chr # 19  "chrX" chrStart: 2465464320
+reference/GRCm39.primary_assembly.genome.fa : chr # 20  "chrY" chrStart: 2635071488
+reference/GRCm39.primary_assembly.genome.fa : chr # 21  "chrM" chrStart: 2726559744
+reference/GRCm39.primary_assembly.genome.fa : chr # 22  "GL456210.1" chrStart: 2726821888
+reference/GRCm39.primary_assembly.genome.fa : chr # 23  "GL456211.1" chrStart: 2727084032
+reference/GRCm39.primary_assembly.genome.fa : chr # 24  "GL456212.1" chrStart: 2727346176
+reference/GRCm39.primary_assembly.genome.fa : chr # 25  "GL456219.1" chrStart: 2727608320
+reference/GRCm39.primary_assembly.genome.fa : chr # 26  "GL456221.1" chrStart: 2727870464
+reference/GRCm39.primary_assembly.genome.fa : chr # 27  "GL456233.2" chrStart: 2728132608
+reference/GRCm39.primary_assembly.genome.fa : chr # 28  "GL456239.1" chrStart: 2728919040
+reference/GRCm39.primary_assembly.genome.fa : chr # 29  "GL456354.1" chrStart: 2729181184
+reference/GRCm39.primary_assembly.genome.fa : chr # 30  "GL456359.1" chrStart: 2729443328
+reference/GRCm39.primary_assembly.genome.fa : chr # 31  "GL456360.1" chrStart: 2729705472
+reference/GRCm39.primary_assembly.genome.fa : chr # 32  "GL456366.1" chrStart: 2729967616
+reference/GRCm39.primary_assembly.genome.fa : chr # 33  "GL456367.1" chrStart: 2730229760
+reference/GRCm39.primary_assembly.genome.fa : chr # 34  "GL456368.1" chrStart: 2730491904
+reference/GRCm39.primary_assembly.genome.fa : chr # 35  "GL456370.1" chrStart: 2730754048
+reference/GRCm39.primary_assembly.genome.fa : chr # 36  "GL456372.1" chrStart: 2731016192
+reference/GRCm39.primary_assembly.genome.fa : chr # 37  "GL456378.1" chrStart: 2731278336
+reference/GRCm39.primary_assembly.genome.fa : chr # 38  "GL456379.1" chrStart: 2731540480
+reference/GRCm39.primary_assembly.genome.fa : chr # 39  "GL456381.1" chrStart: 2731802624
+reference/GRCm39.primary_assembly.genome.fa : chr # 40  "GL456382.1" chrStart: 2732064768
+reference/GRCm39.primary_assembly.genome.fa : chr # 41  "GL456383.1" chrStart: 2732326912
+reference/GRCm39.primary_assembly.genome.fa : chr # 42  "GL456385.1" chrStart: 2732589056
+reference/GRCm39.primary_assembly.genome.fa : chr # 43  "GL456387.1" chrStart: 2732851200
+reference/GRCm39.primary_assembly.genome.fa : chr # 44  "GL456389.1" chrStart: 2733113344
+reference/GRCm39.primary_assembly.genome.fa : chr # 45  "GL456390.1" chrStart: 2733375488
+reference/GRCm39.primary_assembly.genome.fa : chr # 46  "GL456392.1" chrStart: 2733637632
+reference/GRCm39.primary_assembly.genome.fa : chr # 47  "GL456394.1" chrStart: 2733899776
+reference/GRCm39.primary_assembly.genome.fa : chr # 48  "GL456396.1" chrStart: 2734161920
+reference/GRCm39.primary_assembly.genome.fa : chr # 49  "JH584295.1" chrStart: 2734424064
+reference/GRCm39.primary_assembly.genome.fa : chr # 50  "JH584296.1" chrStart: 2734686208
+reference/GRCm39.primary_assembly.genome.fa : chr # 51  "JH584297.1" chrStart: 2734948352
+reference/GRCm39.primary_assembly.genome.fa : chr # 52  "JH584298.1" chrStart: 2735210496
+reference/GRCm39.primary_assembly.genome.fa : chr # 53  "JH584299.1" chrStart: 2735472640
+reference/GRCm39.primary_assembly.genome.fa : chr # 54  "JH584300.1" chrStart: 2736521216
+reference/GRCm39.primary_assembly.genome.fa : chr # 55  "JH584301.1" chrStart: 2736783360
+reference/GRCm39.primary_assembly.genome.fa : chr # 56  "JH584302.1" chrStart: 2737045504
+reference/GRCm39.primary_assembly.genome.fa : chr # 57  "JH584303.1" chrStart: 2737307648
+reference/GRCm39.primary_assembly.genome.fa : chr # 58  "JH584304.1" chrStart: 2737569792
+reference/GRCm39.primary_assembly.genome.fa : chr # 59  "MU069434.1" chrStart: 2737831936
+reference/GRCm39.primary_assembly.genome.fa : chr # 60  "MU069435.1" chrStart: 2738094080
+Chromosome sequence lengths: 
+chr1	195154279
+chr2	181755017
+chr3	159745316
+chr4	156860686
+chr5	151758149
+chr6	149588044
+chr7	144995196
+chr8	130127694
+chr9	124359700
+chr10	130530862
+chr11	121973369
+chr12	120092757
+chr13	120883175
+chr14	125139656
+chr15	104073951
+chr16	98008968
+chr17	95294699
+chr18	90720763
+chr19	61420004
+chrX	169476592
+chrY	91455967
+chrM	16299
+GL456210.1	169725
+GL456211.1	241735
+GL456212.1	153618
+GL456219.1	175968
+GL456221.1	206961
+GL456233.2	559103
+GL456239.1	40056
+GL456354.1	195993
+GL456359.1	22974
+GL456360.1	31704
+GL456366.1	47073
+GL456367.1	42057
+GL456368.1	20208
+GL456370.1	26764
+GL456372.1	28664
+GL456378.1	31602
+GL456379.1	72385
+GL456381.1	25871
+GL456382.1	23158
+GL456383.1	38659
+GL456385.1	35240
+GL456387.1	24685
+GL456389.1	28772
+GL456390.1	24668
+GL456392.1	23629
+GL456394.1	24323
+GL456396.1	21240
+JH584295.1	1976
+JH584296.1	199368
+JH584297.1	205776
+JH584298.1	184189
+JH584299.1	953012
+JH584300.1	182347
+JH584301.1	259875
+JH584302.1	155838
+JH584303.1	158099
+JH584304.1	114452
+MU069434.1	8412
+MU069435.1	31129
+Genome sequence total length = 2728222451
+Genome size with padding = 2738356224
+Apr 02 18:02:38 ..... processing annotations GTF
+Processing pGe.sjdbGTFfile=reference/gencode.vM38.primary_assembly.annotation.gtf, found:
+		278396 transcripts
+		1299184 exons (non-collapsed)
+		412783 collapsed junctions
+Total junctions: 412783
+Apr 02 18:03:03 ..... finished GTF processing
+
+Estimated genome size with padding and SJs: total=genome+SJ=3037356224 = 2738356224 + 299000000
+GstrandBit=32
+Number of SA indices: 2654621783
+Apr 02 18:03:10 ... starting to sort Suffix Array. This may take a long time...
+Number of chunks: 12;   chunks size limit: 1956986200 bytes
+Apr 02 18:03:20 ... sorting Suffix Array chunks and saving them to disk...

@@ -1,0 +1,10 @@
+raw_fastq/
+trimmed_fastq/
+reference/
+hisat2_index/
+aligned/
+qc/
+*.bam
+*.sra
+*.fastq
+*.fastq.gz
