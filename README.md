@@ -3,7 +3,15 @@
 Mus musculus RNA-seq analysis comparing Control vs Mutant samples.
 
 ## Samples
-- SRR37143650 = Control
+## Functional Annotation and Pathway Enrichment
+
+Performed Gene Ontology (GO) Biological Process and KEGG pathway enrichment analysis on significantly differentially expressed genes using clusterProfiler.
+
+### GO Biological Process Enrichment
+![GO Dotplot](results/GO_dotplot.png)
+
+### KEGG Pathway Enrichment
+![KEGG Dotplot](results/KEGG_dotplot.png)- SRR37143650 = Control
 - SRR37143651 = Control
 - SRR37143662 = Mutant
 - SRR37143663 = Mutant
