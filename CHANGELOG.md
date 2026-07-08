@@ -1,71 +1,80 @@
-# CHANGELOG
+# Project Progress
 
-All notable progress for the Flagship Integrative RNA-seq Project is documented here.
+## Sprint 1 — RNA-seq Differential Expression Analysis
 
----
-
-## Sprint 1 — Project Initialization (Day 1)
-
-### Repository Setup
-
-- Created flagship project repository structure
-- Created project roadmap
-- Created project development plan
-- Initialized project documentation
-- Added initial gene list for downstream PPI analysis
-- Created Git feature branch (`flagship-v2`)
-- Pushed initial project structure to GitHub
+### Completed
+- Downloaded raw RNA-seq sequencing data.
+- Performed quality assessment using FastQC.
+- Trimmed low-quality reads using fastp.
+- Aligned reads to the Mus musculus reference genome using HISAT2.
+- Quantified gene expression using featureCounts.
+- Identified differentially expressed genes using DESeq2.
+- Generated PCA plot, MA plot, volcano plot, and heatmap.
+- Exported differential expression results.
 
 **Status:** ✅ Completed
 
 ---
 
-## Sprint 2 — Gene Identifier Mapping (Day 2)
+## Sprint 2 — Gene Identifier Mapping
 
-### Gene Identifier Mapping
-
-- Installed Bioconductor annotation packages
-- Converted Mus musculus Ensembl gene IDs to official gene symbols
-- Generated mapped gene report
-- Generated unmapped gene report
-- Exported STRING-compatible gene list
-- Achieved 92.05% mapping success (139/151 genes)
-- Documented mapping workflow
+### Completed
+- Installed Bioconductor annotation packages.
+- Converted Ensembl gene IDs to official Mus musculus gene symbols.
+- Generated mapped and unmapped gene reports.
+- Prepared STRING-compatible gene list.
 
 **Status:** ✅ Completed
 
 ---
 
-## Sprint 3 — STRING Protein–Protein Interaction Analysis (Day 3)
+## Sprint 3 — Protein–Protein Interaction (PPI) Analysis
 
-### Protein–Protein Interaction Network
-
-- Uploaded mapped genes to STRING database
-- Constructed protein–protein interaction network
-- Generated high-resolution PPI network figure
-- Exported interaction table for Cytoscape
-- Organized STRING outputs within project structure
-- Documented STRING analysis workflow
+### Completed
+- Performed Protein–Protein Interaction analysis using the STRING database.
+- Generated a high-resolution PPI network.
+- Exported STRING interaction table.
+- Organized network figures and interaction files for downstream analysis.
 
 **Status:** ✅ Completed
 
 ---
 
-## Sprint 4 — Cytoscape Network Analysis (Day 4)
+## Sprint 4 — Cytoscape Network Analysis
 
-### Hub Gene Identification
+### Completed
+- Imported the STRING interaction network into Cytoscape.
+- Performed Network Analyzer topology analysis.
+- Calculated Degree, Betweenness, Closeness, Stress, and Radiality centrality measures.
+- Identified top hub genes based on network connectivity.
+- Exported Cytoscape network visualization.
+- Exported hub gene analysis results.
 
-- Imported STRING interaction network into Cytoscape
-- Performed network topology analysis
-- Calculated:
-  - Degree
-  - Betweenness Centrality
-  - Closeness Centrality
-  - Stress
-  - Radiality
-- Identified Top 10 hub genes
-- Exported Cytoscape network figure
-- Exported hub gene statistics
-- Documented Cytoscape workflow
+**Status:** ✅ Completed
+
+---
+
+## Sprint 5 — Hub Gene Functional Interpretation
+
+### Completed
+- Identified the top hub genes from Cytoscape network analysis.
+- Investigated the biological roles of major hub genes.
+- Prepared a functional interpretation of the identified hub genes.
+- Connected inflammatory regulators and epithelial structural proteins into a coherent biological summary.
+- Documented the interpretation for future reporting and publication.
+
+**Status:** ✅ Completed
+
+---
+
+## Sprint 6 — Functional Enrichment Reproducibility
+
+### Completed
+- Recreated the Gene Ontology (GO) and KEGG enrichment workflow.
+- Developed a reproducible R script (`enrichment_analysis.R`) for functional enrichment analysis.
+- Exported GO enrichment results to `GO_results.csv`.
+- Exported KEGG pathway enrichment results to `KEGG_results.csv`.
+- Regenerated GO and KEGG enrichment plots.
+- Improved repository reproducibility by preserving the complete enrichment workflow for future analyses.
 
 **Status:** ✅ Completed
