@@ -1,4 +1,25 @@
-raw_fastq/
+# R
+.Rhistory
+.RData
+.Rproj.user/
+
+# Python
+__pycache__/
+*.pyc
+
+# Linux
+*~
+.DS_Store
+
+# Conda
+.env
+.conda
+
+# Cytoscape
+*.cys~
+
+# Logs
+*.lograw_fastq/
 trimmed_fastq/
 reference/
 hisat2_index/

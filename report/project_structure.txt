@@ -1,0 +1,111 @@
+.
+├── CHANGELOG.md
+├── LICENSE
+├── PROJECT_PLAN.md
+├── README.md
+├── ROADMAP.md
+├── admet
+├── counts
+│   ├── gene_counts.txt
+│   ├── gene_counts.txt.summary
+│   └── sample_info.csv
+├── deseq2
+│   ├── MA_plot.pdf
+│   ├── PCA_plot.pdf
+│   ├── deseq2_results.csv
+│   ├── heatmap_top50.pdf
+│   └── significant_genes.csv
+├── docking
+│   ├── analysis
+│   │   ├── checksums.sha256
+│   │   ├── config.txt
+│   │   ├── docking_summary.txt
+│   │   ├── ligand_properties.txt
+│   │   ├── methods.txt
+│   │   └── receptor_statistics.txt
+│   ├── config
+│   │   └── config.txt
+│   ├── results
+│   │   ├── celecoxib_best.pdb
+│   │   ├── celecoxib_out.pdb
+│   │   ├── celecoxib_out.pdbqt
+│   │   └── vina.log
+│   └── validation
+├── docs
+├── figures
+├── figures_v2
+│   ├── cytoscape_ppi_network.png
+│   └── string_ppi_network.png
+├── hub_genes
+├── interpretation
+│   └── hub_gene_summary.md
+├── ligands
+│   ├── ID8_reference.pdb
+│   ├── celecoxib.pdbqt
+│   └── celecoxib.sdf
+├── literature
+│   └── hub_gene_literature_validation.md
+├── logs
+│   ├── day02_gene_mapping.md
+│   ├── day03_string_ppi.md
+│   ├── day04_cytoscape_analysis.md
+│   ├── day05_hub_gene_interpretation.md
+│   ├── day06_enrichment_reproducibility.md
+│   └── day07_literature_validation.md
+├── ppi
+│   ├── gene_list.txt
+│   ├── gene_symbols.txt
+│   ├── hub_gene_analysis.csv
+│   ├── mapped_genes.csv
+│   ├── string_interactions.tsv
+│   └── unmapped_genes.csv
+├── report
+│   ├── project_structure.txt
+│   ├── results.md
+│   └── software_versions.txt
+├── results
+│   ├── GO_barplot.png
+│   ├── GO_dotplot.png
+│   ├── GO_results.csv
+│   ├── KEGG_barplot.png
+│   ├── KEGG_dotplot.png
+│   ├── KEGG_results.csv
+│   ├── MA_plot.pdf
+│   ├── PCA_plot-1.png
+│   ├── PCA_plot.pdf
+│   ├── deseq2_results.csv
+│   ├── heatmap_top50-1.png
+│   ├── heatmap_top50.pdf
+│   ├── significant_genes.csv
+│   ├── volcano_plot-1.png
+│   └── volcano_plot.pdf
+├── runinfo.csv
+├── scripts
+│   ├── enrichment_analysis.R
+│   ├── map_gene_ids.R
+│   ├── run_deseq2.R
+│   └── volcano_plot.R
+├── sra_ids.txt
+├── star_index
+│   ├── Log.out
+│   ├── chrLength.txt
+│   ├── chrName.txt
+│   ├── chrNameLength.txt
+│   ├── chrStart.txt
+│   ├── exonGeTrInfo.tab
+│   ├── exonInfo.tab
+│   ├── geneInfo.tab
+│   ├── sjdbList.fromGTF.out.tab
+│   └── transcriptInfo.tab
+├── structure
+│   ├── 5F19.pdb
+│   ├── 5IKR.pdb
+│   ├── 5IKR_cleaned.pdb
+│   ├── backup
+│   │   └── 5IKR_original.pdb
+│   └── prepared
+│       ├── PTGS2.pdb
+│       └── PTGS2.pdbqt
+└── visualization
+
+26 directories, 83 files
