@@ -1,0 +1,6 @@
+"category","subcategory","ID","Description","GeneRatio","BgRatio","pvalue","p.adjust","qvalue","geneID","Count"
+NA,NA,"mmu04382","Cornified envelope formation - Mus musculus (house mouse)","10/67","222/11190",7.12067657497552e-07,0.000122475637089579,0.000110932645589092,"18601/16665/16664/109620/16687/12836/16667/12821/16666/110308",10
+"Organismal Systems","Development and regeneration","mmu04360","Axon guidance - Mus musculus (house mouse)","7/67","181/11190",9.89714726618209e-05,0.00851154664891659,0.00770935681786815,"20349/12767/13836/192198/18481/22063/65254",7
+"Organismal Systems","Nervous system","mmu04726","Serotonergic synapse - Mus musculus (house mouse)","6/67","137/11190",0.000163180494476466,0.00935568168331737,0.00847393445000594,"19225/14702/14681/22063/15558/14400",6
+NA,NA,"mmu04519","Cadherin signaling - Mus musculus (house mouse)","9/67","414/11190",0.000759010892496071,0.0326374683773311,0.0295614768656364,"16665/16664/109620/16687/16667/16666/110308/93735/14400",9
+"Organismal Systems","Endocrine system","mmu04915","Estrogen signaling pathway - Mus musculus (house mouse)","5/67","134/11190",0.00121763323962799,0.0418865834432029,0.037938888308409,"16665/16664/16667/14681/16666",5

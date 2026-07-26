@@ -1,0 +1,7 @@
+Docking software: AutoDock Vina 1.2.5
+Receptor: PTGS2 (PDB ID: 5IKR)
+Ligand: Celecoxib
+Search box: 22 x 22 x 22 Angstrom
+Exhaustiveness: 16
+Number of modes: 10
+Scoring function: Vina

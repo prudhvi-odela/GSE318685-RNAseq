@@ -1,0 +1,4 @@
+Protein atoms:
+17651
+Residues:
+551

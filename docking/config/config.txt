@@ -1,0 +1,14 @@
+receptor = structure/prepared/PTGS2.pdbqt
+ligand = ligands/celecoxib.pdbqt
+
+center_x = 39.929
+center_y = 20.333
+center_z = 73.981
+
+size_x = 22
+size_y = 22
+size_z = 22
+
+exhaustiveness = 16
+num_modes = 10
+energy_range = 4
